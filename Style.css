@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header .menu li {
+    display: inline;
+}
+
+header .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header .menu li a:hover {
+    background-color: #004080;
+}
+
+/* Slider Styles */
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Announcement Styles */
+.announcement {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style: disc;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Image Grid Styles */
+.infrastructure-images img,
+.feedback-images img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.infrastructure-images img:hover,
+.feedback-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
